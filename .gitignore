@@ -1,0 +1,22 @@
+
+.cache/
+coverage/
+dist/
+build/
+build-report/
+parcel-bundle-reports/
+node_modules/
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.vscode
+.parcel-cache
+yarn.lock
+.vercel
