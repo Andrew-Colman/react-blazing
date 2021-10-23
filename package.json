@@ -10,7 +10,10 @@
   ],
   "scripts": {
     "start": "echo start",
-    "build": "echo build"
+    "build": "echo build",
+    "docs:start": "wksp -n react-blazing-website start",
+    "docs:build": "wksp -n react-blazing-website build",
+    "docs:deploy": "wksp -n react-blazing-website deploy"
   },
   "dependencies": {
     "react": "^17.0.1",
@@ -24,13 +27,17 @@
     "@babel/preset-react": "^7.12.10",
     "@parcel/packager-raw-url": "^2.0.0",
     "@parcel/transformer-webmanifest": "^2.0.0",
+    "@types/node": "^16.11.0",
     "babel-plugin-module-resolver": "^4.0.0",
     "html-pages": "^3.1.0",
-    "parcel": "^2.0.0"
+    "parcel": "^2.0.0",
+    "reaxi": "latest",
+    "wksp": "latest"
   },
   "workspaces": {
     "packages": [
-      "packages/*"
+      "packages/*",
+      "website"
     ]
   }
 }
