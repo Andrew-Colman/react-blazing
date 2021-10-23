@@ -2,6 +2,7 @@
 .cache/
 coverage/
 dist/
+bin/
 build/
 build-report/
 parcel-bundle-reports/
