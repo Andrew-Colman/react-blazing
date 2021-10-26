@@ -92,7 +92,7 @@ yarn build
 
 > [.babelrc](./babelrc) alias
 
-```json
+```jsonc
       "alias": {
         "@app": "./src",
         "@components": "./src/components",
@@ -103,7 +103,7 @@ yarn build
 
 #### Add new alias:
 
-```json
+```jsonc
         //new alias example:
         //"key: "path"
         "@helpers": "./src/lib/utils/helpers"
@@ -111,7 +111,7 @@ yarn build
 
 for IDE intellisense you should add it at `jsconfig.json` or `tsconfig.json`
 
-```json
+```jsonc
 
 //"key/*": ["./path/*"],
 "@helpers/*": ["./lib/utils/helpers/*"],
