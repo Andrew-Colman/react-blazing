@@ -32,7 +32,7 @@ npx blazing-cli <appName> --templateName
 2. [Building](#Building)
 3. [Features](#Features)
 4. [Routes](#Routes)
-5. [Parcel _(bundler)_](###Bundler)
+5. [Parcel _(bundler)_](#Bundler)
 6. [Styling](#Styling)
 7. [Deployment](#Deployment)
 8. [Testing](#Testing)
@@ -139,7 +139,7 @@ import MyComponent from '@components/MyComponent';
 
 ## Routes
 
-[Wouter](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom) - client side routing for react
+[Wouter](https://github.com/molefrog/wouter) - client side routing for react
 
 @components/Routes
 
@@ -164,7 +164,7 @@ Read more at [Styling guide](./docs/styling.md)
 
 ## Deployment
 
-Make sure your web server rewrites all requests to **'/'** since react is a SPA and we're using react-router to make multi pages available (client-side routing)
+Make sure your web server rewrites all requests to **'/'** since react is a SPA and we're using client-side routing to make multi pages available
 
 Read more at [Deployment guide](./docs/deployment.md)
 
