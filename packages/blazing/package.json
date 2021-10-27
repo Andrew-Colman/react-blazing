@@ -1,0 +1,27 @@
+{
+  "name": "react-blazing",
+  "homepage": "/",
+  "version": "0.1.0",
+  "keywords": [
+    "react",
+    "blazing",
+    "react blazing"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel serve ./src/index.html --open",
+    "build": "parcel build ./src/index.html"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "wouter": "^2.8.0-alpha.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-0",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "parcel": "^2.0.0"
+  }
+}
