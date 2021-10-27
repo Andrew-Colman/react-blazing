@@ -1,0 +1,19 @@
+{
+   "plugins": [
+     ["@babel/plugin-transform-runtime", { "regenerator": true }],
+     ["@babel/plugin-syntax-dynamic-import"],
+     ["module-resolver", {
+       "root": ["./src"],
+       "alias": {
+          "@app": "./src",
+          "@components": "./src/components",
+          "@pages": "./src/pages",
+          "@hooks": "./src/hooks",
+          "@features": "./src/features",
+          "@store": "./src/store",
+          "@styles": "./src/styles"
+       }
+     }]
+   ]
+ }
+ 

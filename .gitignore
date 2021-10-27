@@ -21,3 +21,6 @@ Thumbs.db
 .parcel-cache
 yarn.lock
 .vercel
+
+# temporarily
+_public

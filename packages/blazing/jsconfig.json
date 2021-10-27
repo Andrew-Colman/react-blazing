@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "module": "ESNext",
+      "target": "es5",
+      "baseUrl": "./src/",
+      "paths": {
+        "@app":["./"],
+        "@components/*": ["./components/*"],
+        "@pages/*": ["./pages/*"],
+        "@hooks/*": ["./hooks/*"],
+        "@features/*": ["./features/*"],
+        "@store/*": ["./store/*"],
+        "@styles/*": ["./styles/*"],
+      }
+    },
+    "exclude": ["node_modules"]
+  }
